@@ -3,9 +3,12 @@
 class OurClients extends CI_Controller {
 
 	
-	public function index()
-	{
-                $this->load->view('header');
+	public function index(){
+                
+                $data['title'] = "Online Corporate and Promotional Gift Store | Ambella";
+                $data['description'] = "Supplier of promotional gifts and corporate gifts or clothing. Ambella is well known for providing high quality in promotional items. Call us now";
+	
+                $this->load->view('header',$data);
 		$this->load->view('our-clients');
                 $this->load->view('footer');
 	}

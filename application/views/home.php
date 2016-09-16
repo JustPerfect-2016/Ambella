@@ -1,4 +1,3 @@
-<?php include_once "common/homeSlider.php"; ?>
 <div class="Content" id="LayoutColumn2" style="opacity: 1; background-color: rgb(255, 255, 255);">
     <ul class="home_thumbs">
         <li>

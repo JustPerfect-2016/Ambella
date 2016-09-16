@@ -25,6 +25,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.min.js"></script>
+<script src="<?php echo base_url() ?>assets/js/jquery.anythingslider.fx.min.js"></script>
+<script src="<?php echo base_url() ?>assets/js/jquery.anythingslider.min.js"></script>
 
 
 </body>

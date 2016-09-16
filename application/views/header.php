@@ -8,8 +8,20 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
         <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/styles.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/slide-show.css">
         <!-- Latest compiled and minified Jquery library -->
         <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function () {
+                $('.slide-show').flexslider({
+                    slideshowSpeed: $('.slide-show').attr('data-swap-frequency') * 1000,
+                    animation: "slide",
+                    pauseOnHover: true,
+                    controlNav: true,
+                    directionNav: true
+                });
+            });
+        </script>
     </head>
 
     <body>
@@ -24,7 +36,14 @@
             </div>
             <?php include_once 'common/headerTop.php'; ?>
             <?php include_once 'common/ambellaMenu.php'; ?>
+            <?php
+            $home = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $home_condition = base_url();
+            if ($home === $home_condition) {
+                include_once 'common/homeslider.php';
+            }
+            ?>
             <div class="container">
                 <div class="row">
-                    <?php include_once 'common/ambellaSideBar.php'; ?>
+<?php include_once 'common/ambellaSideBar.php'; ?>
                     <div class="col-md-9">

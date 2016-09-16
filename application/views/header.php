@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Create simple website using codeigniter</title>
+        <title><?php echo $title; ?> </title>
+          <meta name="description" content="<?php echo $description ?>" />
         <!-- Latest compiled and minified CSS -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -37,8 +38,8 @@
             <?php include_once 'common/headerTop.php'; ?>
             <?php include_once 'common/ambellaMenu.php'; ?>
             <?php
-            $home = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-            $home_condition = base_url();
+            $home = strtolower ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+            $home_condition = strtolower (base_url());
             if ($home === $home_condition) {
                 include_once 'common/homeslider.php';
             }

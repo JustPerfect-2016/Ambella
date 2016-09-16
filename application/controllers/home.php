@@ -21,8 +21,8 @@ class Home extends CI_Controller {
      */
     public function index() {
         
-        $data['title'] = "Startseite";
-        $data['description'] = "testing 123";
+        $data['title'] = "Corporate Gifts, Promotional Products & Clothing | Ambella";
+        $data['description'] = "We provide corporate gifts and promotional products to strongly promote your brand. Clothing, Work wear, Pens &amp; more. Generate your online quote Now!";
         
         $this->load->view('header',$data);
         $this->load->view('home');

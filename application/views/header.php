@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title><?php echo $title; ?> </title>
-          <meta name="description" content="<?php echo $description ?>" />
+        <meta name="description" content="<?php echo $description ?>" />
         <!-- Latest compiled and minified CSS -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -30,21 +30,24 @@
             <div class="container ambella_iframe" >
                 <div class="row">
                     <div class="col-md-12">
-                        <iframe src="http://ambella.co.za/product_images/banners/index.html" width="100%" height="120" frameborder="0" scrolling="no" allowtransparency="true" ></iframe>
+                        <!--iframe src="http://ambella.co.za/product_images/banners/index.html" width="100%" height="120" frameborder="0" scrolling="no" allowtransparency="true" ></iframe-->
                     </div>
 
                 </div>
             </div>
             <?php include_once 'common/headerTop.php'; ?>
             <?php include_once 'common/ambellaMenu.php'; ?>
-            <?php
-            $home = strtolower ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-            $home_condition = strtolower (base_url());
-            if ($home === $home_condition) {
-                include_once 'common/homeslider.php';
-            }
-            ?>
+            <div class="AmbellahomeSlider">
+
+                <?php
+                $home = strtolower("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+                $home_condition = strtolower(base_url());
+                if ($home === $home_condition) {
+                    include_once 'common/homeslider.php';
+                }
+                ?>
+            </div>
             <div class="container">
                 <div class="row">
-<?php include_once 'common/ambellaSideBar.php'; ?>
+                    <?php include_once 'common/ambellaSideBar.php'; ?>
                     <div class="col-md-9">

@@ -26,9 +26,11 @@ and open the template in the editor.
 .home_thumbs{
     padding-left:0px;
     list-style: none;
-    
+        text-align: center;
+
     li{
         display:inline-block;
+            text-align: center;
     }
 }
 
@@ -65,8 +67,8 @@ Header area styles
 */
 
 .navbar-default {
-    background-color: transparent ;
-    border-color: transparent;
+    //background-color: transparent ;
+    //border-color: transparent;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -362,8 +364,8 @@ h2, .TitleHeading {
         box-shadow: none !important; 
     }
     .row {
-         margin-right:0px;
-       margin-left: 0px; 
+        margin-right:0px;
+        margin-left: 0px; 
     }
 }
 
@@ -373,13 +375,13 @@ h2, .TitleHeading {
 }
 
 .dropdown-menu {
-     background-color: #c30404;
-  
+    background-color: #c30404;
+
 }
 
 .dropdown-menu>li>a {
     color: #FFF;
- 
+
 }
 
 
@@ -387,45 +389,45 @@ h2, .TitleHeading {
  Slide show
 */
 #slide-show-preview .slide-show-render.slide-show {
-	width: 980px;
+    width: 980px;
 }
 
 .slide-show-render.slide-show {
-	position: relative;
+    position: relative;
 }
 .slide-show-render.slide-show .flex-prev, .slide-show-render.slide-show .flex-next {
-	width: 23px;
-	height: 35px;
+    width: 23px;
+    height: 35px;
 }
 .slide-show-render.slide-show .flex-prev {
-	background-image: url('../images/Carousel-Navigation-L.png');
-	left: 0px;
+    background-image: url('../images/Carousel-Navigation-L.png');
+    left: 0px;
 }
 .slide-show-render.slide-show .flex-prev:hover {
-	background-image: url('../images/Carousel-Navigation-L-Hover.png');
+    background-image: url('../images/Carousel-Navigation-L-Hover.png');
 }
 .slide-show-render.slide-show .flex-next {
-	background-image: url('../images/Carousel-Navigation-R.png');
-	right: 0px;
+    background-image: url('../images/Carousel-Navigation-R.png');
+    right: 0px;
 }
 .slide-show-render.slide-show .flex-next:hover {
-	background-image: url('../images/Carousel-Navigation-R-Hover.png');
+    background-image: url('../images/Carousel-Navigation-R-Hover.png');
 }
 .slide-show-render.slide-show .flex-control-nav.flex-control-paging {
-	position: absolute;
-	left: 15px;
-	bottom: 15px;
-	width: auto;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: auto;
 }
 .slide-show-render.slide-show .flex-control-nav.flex-control-paging li {
-	margin-left: 0px;
-	margin-right: 7px;
+    margin-left: 0px;
+    margin-right: 7px;
 }
 .slide-show-render.slide-show .flex-control-nav.flex-control-paging li a {
-	width: 11px;
-	height: 11px;
-	border: 1px solid rgb(26, 26, 26);
-	background-color: rgb(26, 26, 26);
+    width: 11px;
+    height: 11px;
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);
 }
 .slide-show-render.slide-show .flex-control-nav.flex-control-paging li a.flex-active {
     background-color: #c9c9c9;
@@ -433,4 +435,15 @@ h2, .TitleHeading {
 
 h2.slide-heading {
     text-transform: uppercase;
+}
+
+@media(max-width:760px){
+    .AmbellahomeSlider, .flex-control-nav{
+        display:none;
+    }
+}
+@media(max-width:769px){
+    .flex-control-nav{
+        display:none !important;
+    }
 }

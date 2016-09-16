@@ -22,7 +22,7 @@ class Branding extends CI_Controller {
                 $data['title'] = "Branding Solutions - Promote your Brand - Branding Services";
                 $data['description'] = "Give your brand a professional branded corporate image. We brand clothing or gifts. Digital printing, screen printing &amp; more. Request a quote today!";
 	
-                $this->load->view('header');
+                $this->load->view('header',$data);
 		$this->load->view('branding/index');
                 $this->load->view('footer');
 	}
@@ -32,7 +32,7 @@ class Branding extends CI_Controller {
                 $data['title'] = "Debossing Services | Quality Logo Products  - Get a quote";
                 $data['description'] = "We have branding solutions that creates a professional corporate gifts that represents a company’s brand elegantly. Call us today!";
 	
-                $this->load->view('header');
+                $this->load->view('header',$data);
 		$this->load->view('branding/debossing');
                 $this->load->view('footer');
 	}

@@ -97,5 +97,11 @@
         jQuery(".dropdown").hover(function () {
             jQuery(this).find('.dropdown-menu').toggle();
         });
+
+        jQuery("nav").on("click", function () {
+
+            jQuery(".nav").toggle();
+
+        });
     });
 </script>

@@ -8,7 +8,7 @@
    <div class="Block Moveable Panel" id="PageContent">
       <h1>Branding Guidelines</h1>
       <div class="BlockContent">
-         <p><a href="<?php echo base_url() ?>branding/debrossing/">
+         <p><a href="<?php echo base_url() ?>branding/debossing/">
                  <img class="__mce_add_custom__" title="debossing.jpg" src="http://cdn2.bigcommerce.com/n-pktq5q/hreb6/product_images/uploaded_images/debossing.jpg?t=1409845737" alt="debossing.jpg" width="100%" height="auto"></a></p>
          <p><a title="Printing Digital " href="<?php echo base_url() ?>branding/digitalprinting/">
                  <img class="__mce_add_custom__" title="digital.jpg" src="http://cdn2.bigcommerce.com/n-pktq5q/hreb6/product_images/uploaded_images/digital.jpg?t=1409845903" alt="digital.jpg" width="100%" height="auto"></a></p>

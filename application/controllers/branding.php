@@ -117,7 +117,7 @@ class Branding extends CI_Controller {
 		$this->load->view('branding/whybrandedgifts');
                 $this->load->view('footer');
 	} 
-        
+       
 
 }
 

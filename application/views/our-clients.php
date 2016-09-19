@@ -74,7 +74,7 @@
                         <img src="<?php echo base_url() ?>assets/img/uploaded_images/justperfect.jpg" alt="justperfect" width="163" height="121"></a></li>
                 <li><a title="Justperfect" href="http://www.clover.co.za/" rel="nofollow" target="_blank">
                         <img src="<?php echo base_url() ?>assets/img/uploaded_images/clover.jpg" alt="clover" width="163" height="121"></a></li>
-                <li><img src="<?php echo base_url() ?>assets/img/ourclients/B&amp;C.jpg" alt="B&amp;C" width="163" height="121"></li>
+                <li><img src="<?php echo base_url() ?>assets/img/ourclients/bandc.jpg" alt="B&amp;C" width="163" height="121"></li>
                 <li><a title="B&amp;C" href="http://www.bnctechnology.co.za/" rel="nofollow" target="_blank">
                         <img src="<?php echo base_url() ?>assets/img/ourclients/bnc.jpg" alt="BNC" width="163" height="121"></a></li>
                 <li><a title="B&amp;C" href="https://clhg.com/hotel-rates/city-lodge" rel="nofollow" target="_blank">

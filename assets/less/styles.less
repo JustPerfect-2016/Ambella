@@ -26,11 +26,11 @@ and open the template in the editor.
 .home_thumbs{
     padding-left:0px;
     list-style: none;
-        text-align: center;
+    text-align: center;
 
     li{
         display:inline-block;
-            text-align: center;
+        text-align: center;
     }
 }
 
@@ -346,6 +346,7 @@ h2, .TitleHeading {
     #Header table{
         margin-top:0px;
         margin: auto;
+        margin-bottom: 5%;
     }
 
     .block1 img, .block2 img{
@@ -357,7 +358,8 @@ h2, .TitleHeading {
         margin:0px;
     }
     .Content {
-        margin: 0 15px 0 15px;
+        margin: 0px;
+        width:100%;
     }
 
     .wrapper{
@@ -366,6 +368,17 @@ h2, .TitleHeading {
     .row {
         margin-right:0px;
         margin-left: 0px; 
+    }
+    .navbar-collapse{
+        max-height:350px;
+        height:350px !important;
+        li a{
+            font-weight: bold;
+            font-size: 14px;
+            padding: 10px 40px 10px 15px;
+            border-bottom: 1px solid #efefef;
+            background: #fff
+        }
     }
 }
 
@@ -441,9 +454,45 @@ h2.slide-heading {
     .AmbellahomeSlider, .flex-control-nav{
         display:none;
     }
+    .navbar-default .navbar-nav>li>a {
+        color: #777 !important;
+        padding-left: 30px; 
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-radius: 0px;
+    }
+    .navbar-header{
+        max-width: 95% !important;
+        margin: auto !important;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: 1px solid #f8f8f8 !important;
+        background-color: #f8f8f8 !important;
+        background-image: none !important;
+    }
+
+    .nav>li>a:hover, .nav>li>a:focus {
+        text-decoration: none;
+        background-color: #eee !important;
+    }
+
+    .dropdown-menu {
+        background-color: transparent !important;
+        color:#777;
+    }
+
 }
 @media(max-width:769px){
     .flex-control-nav{
         display:none !important;
     }
+}
+
+@media(min-width:769px){
+    .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+    
 }

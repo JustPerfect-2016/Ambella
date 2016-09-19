@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
         <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/styles.css">
         <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/slide-show.css">
+        <link rel="shortcut icon" href="http://cdn2.bigcommerce.com/n-pktq5q/hreb6/product_images/favicon.png" />
         <!-- Latest compiled and minified Jquery library -->
         <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
         <script type="text/javascript" charset="utf-8">
@@ -25,29 +26,29 @@
         </script>
     </head>
 
-    <body>
+     <body>
         <div class="wrapper">
             <div class="container ambella_iframe" >
                 <div class="row">
                     <div class="col-md-12">
-                        <!--iframe src="http://ambella.co.za/product_images/banners/index.html" width="100%" height="120" frameborder="0" scrolling="no" allowtransparency="true" ></iframe-->
+                        <iframe src="http://ambella.co.za/product_images/banners/index.html" width="100%" height="120" frameborder="0" scrolling="no" allowtransparency="true" ></iframe>
                     </div>
 
                 </div>
             </div>
-            <?php include_once 'common/headerTop.php'; ?>
-            <?php include_once 'common/ambellaMenu.php'; ?>
+            <?php require_once './application/views/common/headerTop.php'; ?>
+            <?php include './application/views/common/ambellaMenu.php'; ?>
             <div class="AmbellahomeSlider">
 
                 <?php
                 $home = strtolower("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
                 $home_condition = strtolower(base_url());
                 if ($home === $home_condition) {
-                    include_once 'common/homeslider.php';
+                    include './application/views/common/homeSlider.php';
                 }
                 ?>
             </div>
             <div class="container">
                 <div class="row">
-                    <?php include_once 'common/ambellaSideBar.php'; ?>
+                    <?php include './application/views/common/ambellaSideBar.php'; ?>
                     <div class="col-md-9">

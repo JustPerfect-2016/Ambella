@@ -43,7 +43,7 @@
                         <dd style="display: "><input type="text" name="contact_phone" id="contact_phone" class="Textbox Field200" value=""></dd>
                         <dt><span class="Required">*</span>&nbsp; Details:</dt>
                         <dd>
-                            <textarea name="contact_question" id="contact_question" class="Field300" rows="5" cols="50"></textarea>
+                            <textarea name="contact_question" id="contact_question" class="Field300" rows="5" cols="50" style="width:100%"></textarea>
                             <div id="SearchResults"></div>
                         </dd>
                         <dt style="display: "><span class="Required">*</span>&nbsp; Captcha Check:</dt>

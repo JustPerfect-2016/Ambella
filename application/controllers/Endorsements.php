@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class OurClients extends CI_Controller {
+class Endorsements extends CI_Controller {
 
 	
 	public function index(){
@@ -9,7 +9,7 @@ class OurClients extends CI_Controller {
                 $data['description'] = "Supplier of promotional gifts and corporate gifts or clothing. Ambella is well known for providing high quality in promotional items. Call us now";
 	
                 $this->load->view('header',$data);
-		$this->load->view('our-clients');
+		$this->load->view('Endorsements');
                 $this->load->view('footer');
 	}
   

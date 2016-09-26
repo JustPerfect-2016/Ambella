@@ -23,13 +23,11 @@
                     <a href="<?php echo base_url() ?>">Home</a>
                 </li>
                 <li>
-                    <a href="http://ambella.co.za/" target="blank">Shop Now</a>
+                    <a href="http://shop.ambella.co.za/" target="blank">Shop Now</a>
                 </li>
-                <li class="dropdown">
-                    <a href="<?php echo base_url() ?>aboutus" onclick="location.href='<?php echo base_url() ?>aboutus';" class="dropdown-toggle about" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
-                    <ul id="dropdown-menu" class="dropdown-menu" style="left:0px !important;">
-                        <li><a href="<?php echo base_url(); ?>testimonial" >Testimonial</a></li>
-                    </ul>
+                <li>
+                    <a href="<?php echo base_url() ?>aboutus" onclick="location.href='<?php echo base_url() ?>aboutus';" class="dropdown-toggle about" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+                    
                 </li>
                 <li class="dropdown">
                     <a href="<?php echo base_url() ?>featuredproducts" onclick="location.href='<?php echo base_url() ?>featuredproducts';" class="dropdown-toggle featured" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Featured Products<span class="caret"></span></a>
@@ -62,10 +60,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="<?php echo base_url() ?>ourclients">Our Clients</a>
-                </li>
+                    <a href="<?php echo base_url() ?>Endorsements">Endorsements</a>
+               </li>
                 <li>
-                    <a href="http://ambella.blog.beem.co.za/" target="blank">Blog</a>
+                    <a href="http://blog.ambella.co.za/" target="blank">Blog</a>
                 </li>
                 <li class="dropdown">
                     <a href="<?php echo base_url() ?>branding" onclick="location.href='<?php echo base_url() ?>branding';" class="dropdown-toggle branding" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Branding Guidelines<span class="caret"></span></a>
@@ -78,7 +76,7 @@
                         <li role="separator" class="divider"></li>
                         <li><a href="<?php echo base_url(); ?>branding/embroidery" >Embroidery</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="<?php echo base_url(); ?>branding/laserprindng" >Laser Printing</a></li>
+                        <li><a href="<?php echo base_url(); ?>branding/laserprinting" >Laser Printing</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="<?php echo base_url(); ?>branding/padprinting" >Pad Printing</a></li>
                         <li role="separator" class="divider"></li>

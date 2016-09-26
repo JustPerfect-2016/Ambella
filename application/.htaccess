@@ -1,1 +1,2 @@
-Deny from all
+Redirect permanent http://shop.ambella.co.za/contact-us/ http://ambella.co.za/contactus
+

@@ -4,7 +4,7 @@
             <table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tbody>
                     <tr>
-                        <td colspan="2" align="left" valign="top"><a href="http://ambella.co.za/bags/"><img src="<?php echo base_url() ?>assets/img/home/bags.jpg" alt="Promotional Gift Bags" width="100%" height="auto"></a></td>
+                        <td colspan="2" align="left" valign="top"><a href="http://shop.ambella.co.za/bags/"><img src="<?php echo base_url() ?>assets/img/home/bags.jpg" alt="Promotional Gift Bags" width="100%" height="auto"></a></td>
                     </tr>
                     <tr>
                         <td width="195" height="48" align="left" bgcolor="#f7fbfc" class="product-heading"><a href="http://ambella.co.za/bags/">Bags</a></td>
@@ -17,7 +17,7 @@
             <table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tbody>
                     <tr>
-                        <td colspan="2" align="left" valign="top"><a href="http://ambella.co.za/stationery/"><img src="<?php echo base_url() ?>assets/img/home/pens.jpg" alt="Corporate Gift Pens" width="100%" height="auto"></a></td>
+                        <td colspan="2" align="left" valign="top"><a href="http://shop.ambella.co.za/stationery/"><img src="<?php echo base_url() ?>assets/img/home/pens.jpg" alt="Corporate Gift Pens" width="100%" height="auto"></a></td>
                     </tr>
                     <tr>
                         <td width="195" height="48" align="left" bgcolor="#f7fbfc" class="product-heading"><a href="http://ambella.co.za/stationery/">Writing Instruments</a></td>
@@ -30,7 +30,7 @@
             <table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tbody>
                     <tr>
-                        <td colspan="2" align="left" valign="top"><a href="http://ambella.co.za/mobile-technology/"><img src="<?php echo base_url() ?>assets/img/home/usb.jpg" alt="Technology/Gadgets" width="100%" height="auto"></a></td>
+                        <td colspan="2" align="left" valign="top"><a href="http://shop.ambella.co.za/mobile-technology/"><img src="<?php echo base_url() ?>assets/img/home/usb.jpg" alt="Technology/Gadgets" width="100%" height="auto"></a></td>
                     </tr>
                     <tr>
                         <td width="195" height="48" align="left" bgcolor="#f7fbfc" class="product-heading"><a href="http://ambella.co.za/mobile-technology/">Technology/Gadgets</a></td>
@@ -43,10 +43,10 @@
             <table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tbody>
                     <tr>
-                        <td colspan="2" align="left" valign="top"><a href="http://ambella.co.za/corporate-clothing/"><img src="<?php echo base_url() ?>assets/img/home/clothing.jpg" alt="Corporate Clothing" width="100%" height="auto"></a></td>
+                        <td colspan="2" align="left" valign="top"><a href="http://shop.ambella.co.za/corporate-clothing/"><img src="<?php echo base_url() ?>assets/img/home/clothing.jpg" alt="Corporate Clothing" width="100%" height="auto"></a></td>
                     </tr>
                     <tr>
-                        <td width="195" height="48" align="left" bgcolor="#f7fbfc" class="product-heading"><a href="http://ambella.co.za/corporate-clothing/">Corporate Wear/Workwear</a></td>
+                        <td width="195" height="48" align="left" bgcolor="#f7fbfc" class="product-heading"><a href="http://shop.ambella.co.za/corporate-clothing/">Corporate Wear/Workwear</a></td>
                         <td width="48" align="right" valign="top" bgcolor="#f7fbfc">&nbsp;</td>
                     </tr>
                 </tbody>
